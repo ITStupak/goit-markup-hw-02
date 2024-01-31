@@ -32,7 +32,8 @@ ul {
   color: #2e2f42;
   font-weight: 500;
 }
-.menu a:hover {
+.menu a:hover,
+.menu a:focus {
   color: #404bbf;
 }
 .menu a:active {
@@ -42,7 +43,8 @@ ul {
   font-style: normal;
   color: #434455;
 }
-.contacts a:hover {
+.contacts a:hover,
+.contacts a:focus {
   color: #404bbf;
 }
 .about {
@@ -78,7 +80,8 @@ h3 {
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 .team {
