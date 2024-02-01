@@ -26,15 +26,15 @@ ul {
 .accent-footer {
   color: #f4f4fd;
 }
-.menu a {
+.link {
   color: #2e2f42;
   font-weight: 500;
 }
-.menu a:hover,
-.menu a:focus {
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
-.menu a:active {
+.link:active {
   text-decoration: underline;
 }
 .nav-contacts {
@@ -93,11 +93,9 @@ ul {
 .team {
   background-color: #f4f4fd;
 }
-.team-cards {
-  text-align: center;
-}
-.team-cards li {
+.team-card {
   background-color: #fff;
+  text-align: center;
 }
 .footer {
   background-color: #2e2f42;
