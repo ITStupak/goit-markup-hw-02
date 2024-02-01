@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Verdana", "Arial", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: #434455;
@@ -15,15 +15,17 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.67;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+.logo-p1 {
   color: #4d5ae5;
 }
-.accent-header {
+.logo-p2 {
   color: #2e2f42;
 }
-.accent-footer {
+.logo-p2-footer {
   color: #f4f4fd;
 }
 .menu a {
@@ -37,49 +39,41 @@ ul {
 .menu a:active {
   text-decoration: underline;
 }
-.nav-contacts {
+.contacts a {
   font-style: normal;
-}
-.contacts {
   color: #434455;
 }
-.contacts:hover,
-.contacts:focus {
+.contacts a:hover,
+.contacts a:focus {
   color: #404bbf;
 }
 .about {
   background-color: #2e2f42;
 }
-.about-title {
-  text-align: center;
+h1 {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
-.section-title {
+h2 {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-  text-align: center;
 }
-.card-title {
+h3 {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
-.card-text {
-  font-size: 16px;
-}
 .btn {
   background-color: #4d5ae5;
-  font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 500;
   line-height: 1.5;
@@ -92,9 +86,6 @@ ul {
 }
 .team {
   background-color: #f4f4fd;
-}
-.team-cards {
-  text-align: center;
 }
 .team-cards li {
   background-color: #fff;
